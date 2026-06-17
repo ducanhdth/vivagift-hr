@@ -1,0 +1,11 @@
+# Sao chép file này thành ".env.local" và điền giá trị thật từ Supabase.
+# Lấy tại: Supabase Dashboard > Project Settings > API
+
+# URL dự án Supabase (vd: https://xxxxx.supabase.co)
+NEXT_PUBLIC_SUPABASE_URL=
+
+# Khoá công khai (anon/public key) — an toàn để dùng ở client
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+
+# LƯU Ý: KHÔNG bao giờ commit file .env.local lên GitHub.
+# Khi deploy Vercel, khai báo 2 biến trên trong: Project Settings > Environment Variables.
